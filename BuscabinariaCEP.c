@@ -60,7 +60,7 @@ while(inicio <= final)
 		}
     }
     if(strncmp(argv[1],e.cep,8) != 0){
-    	printf("CEP não existe!");
+    	printf("CEP nÃ£o existe!");
     	printf("Total lido(s): %d\n", count);
 	}		
 	fclose(f);
