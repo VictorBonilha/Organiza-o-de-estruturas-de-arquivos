@@ -19,7 +19,7 @@ int main(int argc, char**argv)
 	FILE *f;
 	Endereco e;
 	int count, qtd;
-	long inicio, tamanhoarq, metade, final;
+	long inicio, tamanho, meio, final;
 	
 	if(argc != 2)
 	{
